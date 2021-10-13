@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <style>
+       body{
+           /* background-color: burlywood; */
+           background:  linear-gradient(to left, #000000 3%, #ffffff 100%);
+
+       }
+        .heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 80px;
+            letter-spacing: 5px;
+        }
+       
+        h2{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            color:black;
+        }
+        #gifContainer{
+            display: flex;
+            justify-content: space-evenly;
+            display: grid;
+            grid-template-columns: auto auto auto auto ;
+            /* border: 2px solid black; */
+            overflow-y: auto;
+        }
+        .icons{
+            display: flex;
+            justify-content: space-around;
+        }
+        .fa {
+            
+            padding: 20px;
+            /* position: absolute; */
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            /* flex-direction: column; */
+            }
+        .fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+        
+    </style>
+</head>
+<body>
+    <h2>Trending Gif's</h2>
+    <div id="gifContainer"> 
+    </div>
+<div class="icons">
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+<a href="https://in.pinterest.com/" class="fa fa-pinterest"></a>
+</div>
+      
+      
+
+   
+    <script src="script.js"></script>
+</body>
+</html>

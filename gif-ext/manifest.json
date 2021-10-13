@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Change the NewTab",
+  "description": " the method to get access to the 'new tab' page and displays something every time you open a new tab.",
+  "version": "1.3",
+  "icons": {
+    "128": "200.png",
+    "48": "128.png",
+    "16": "128.png"
+  },
+     "chrome_url_overrides" : {
+    "newtab": "newTab.html"
+  }
+}
